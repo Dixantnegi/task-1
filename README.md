@@ -23,3 +23,7 @@ Beyond basic reading, the program also implements a modification feature. It rea
 Finally, the program writes the (potentially modified) content back into the file, preserving any changes made. After completing all operations, it confirms successful modification. Although the replacement attempt does not alter the content in this case, the structure allows for future modifications if the correct text exists.
 
 This program effectively demonstrates file handling in Java, covering creation, writing, reading, and modifying files. However, some improvements could enhance its functionality. For instance, verifying whether the target text exists before attempting replacement would make modifications more meaningful. Additionally, rather than overwriting the file entirely, an append mode could be introduced to retain previous data while adding new content. Proper exception handling is already included, preventing crashes due to file-related errors. Overall, this program serves as a solid introduction to Java’s file-handling capabilities.
+
+OUTPUT
+
+![Image](https://github.com/user-attachments/assets/f8ab36ab-0bdc-438d-9fba-47a4879bb1b6)
